@@ -1,0 +1,36 @@
+.base-area {
+    border: 2px solid;
+    padding: 1rem;
+}
+
+.container-body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 57rem;
+    padding: 1rem;
+    margin: auto;
+}
+
+.container-base {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.container-grid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: calc(100vh - 1.5rem);
+    grid-template-areas: "form schedule";
+
+    padding: 0.75rem;
+}
+
+@media (max-width: 1100px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+}
