@@ -50,7 +50,19 @@ body {
     color: var(--base-gray-500);
 }
 
-.container {
+.base-area {
+    border: 2px solid;
+    padding: 1rem;
+}
+
+.container-base {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.container-grid {
     display: grid;
     grid-template-columns: auto 1fr;
     grid-template-rows: calc(100vh - 1.5rem);

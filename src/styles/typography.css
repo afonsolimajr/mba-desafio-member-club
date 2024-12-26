@@ -1,0 +1,51 @@
+title-md {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 140%;
+}
+
+title-sm {
+    display: block;
+    font-size: 1.125rem;
+    font-weight: bold;
+    line-height: 140%;
+}
+
+subtitle {
+    display: block;
+    font-size: .875rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 140%;
+}
+
+subtitle-sm {
+    display: block;
+    font-size: .75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 140%;
+}
+
+text-md {
+    font-size: 1rem;
+    line-height: 140%;
+}
+
+text-sm {
+    font-size: .875rem;
+    line-height: 140%;
+}
+
+text-xs {
+    font-size: .75rem;
+    line-height: 140%;
+}
+
+.gradient-bar {
+    min-height: 2rem;
+    width: 100%;
+    background: var(--gradient-base);
+    border-radius: 4px;
+}
