@@ -1,0 +1,24 @@
+.card-base {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: var(--base-white);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.profile-card {
+    grid-area: A;
+}
+
+.history-list {
+    grid-area: B;
+}
+
+.fidelity-card {
+    grid-area: C;
+}
+
+.gift-card {
+    grid-area: D;
+}

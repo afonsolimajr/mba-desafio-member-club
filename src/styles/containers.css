@@ -21,11 +21,16 @@
 
 .container-grid {
     display: grid;
-    grid-template-columns: auto 1fr;
-    grid-template-rows: calc(100vh - 1.5rem);
-    grid-template-areas: "form schedule";
+    height: 100vh;
+    grid-template-areas:
+        "A B B"
+        "C B B"
+        "C D D";
 
     padding: 0.75rem;
+    row-gap: 1rem;
+    column-gap: 2rem;
+    border: 1px solid brown;
 }
 
 @media (max-width: 1100px) {

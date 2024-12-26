@@ -42,11 +42,11 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--base-gray-200);
+    background: var(--base-gray-400);
 }
 
 body {
-    background-color: var(--base-white);
+    background-color: var(--base-gray-200);
     color: var(--base-gray-500);
 }
 
