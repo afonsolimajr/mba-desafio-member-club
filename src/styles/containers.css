@@ -21,7 +21,9 @@
 
 .container-grid {
     display: grid;
-    height: 100vh;
+    height: 100%;
+    grid-template-columns: 20rem 1fr;
+    grid-template-rows: 5.625rem 1fr 5.625rem;
     grid-template-areas:
         "A B B"
         "C B B"

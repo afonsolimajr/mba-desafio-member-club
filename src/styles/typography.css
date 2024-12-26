@@ -10,6 +10,7 @@ title-sm {
     font-size: 1.125rem;
     font-weight: bold;
     line-height: 140%;
+    color: var(--base-gray-600);
 }
 
 subtitle {

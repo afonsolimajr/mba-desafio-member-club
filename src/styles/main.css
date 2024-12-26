@@ -2,22 +2,52 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    background: var(--base-white);
+    background: var(--base-gray-100);
+    border: 1px solid var(--base-gray-300);
     border-radius: 1rem;
     padding: 1rem;
 }
 
 .profile-card {
+    display: flex;
+    flex-direction: row;
     grid-area: A;
-}
+    gap: 1rem;
 
-.history-list {
-    grid-area: B;
+    .gradient {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2px;
+        background: var(--gradient-base);
+        border-radius: .625rem;
+    }
+
+    .shape {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        padding: 2px;
+        background: var(--base-white);
+        border-radius: .5rem;
+    }
+
+    img {
+        height: 100%;
+        object-fit: fill;
+    }
 }
 
 .fidelity-card {
+    grid-area: B;
+}
+
+.history-list {
     grid-area: C;
 }
+
 
 .gift-card {
     grid-area: D;
