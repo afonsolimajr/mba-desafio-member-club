@@ -42,7 +42,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--base-gray-600);
+    background: var(--base-gray-200);
 }
 
 body {
