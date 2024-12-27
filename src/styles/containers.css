@@ -22,6 +22,7 @@
 .container-grid {
     display: grid;
     height: 100%;
+    max-height: 100vh;
     grid-template-columns: 20rem 1fr;
     grid-template-rows: 5.625rem 1fr 7.3125rem;
     grid-template-areas:
