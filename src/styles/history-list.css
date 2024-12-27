@@ -3,7 +3,9 @@
     flex-direction: column;
     padding: 2rem;
     overflow: scroll;
-    max-height: 100%;
+    /* margin-right: 5rem; */
+    /* height: 70%; */
+    /* max-height: 70%; */
 
     .history-head {
         display: flex;

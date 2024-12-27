@@ -1,0 +1,44 @@
+.fidelity-header {
+    display: flex;
+    padding-block: 1rem;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.id-container {
+    display: flex;
+    padding: .5rem;
+}
+
+.id-area {
+    display: flex;
+    background-color: var(--base-gray-300);
+    padding-block: .5rem;
+    padding-inline: 1rem;
+    border-radius: 2rem;
+}
+
+.fidelity-stamp-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 1rem;
+    width: 100%;
+    /* margin: 1rem; */
+
+    .stamp {
+        display: flex;
+        background-color: var(--base-gray-200);
+        border-radius: 1rem;
+        width: 5.5rem;
+        height: 5.5rem;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            width: 70%;
+            height: auto;
+            object-fit: fill;
+        }
+    }
+}
